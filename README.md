@@ -1,6 +1,6 @@
-# COVID-19 Data Exploration with SQL And Visualization with Tableau Project Walkthough 
+# COVID-19 Data Exploration with SQL Project Walkthough Plus Visualization with Tableau
 
-### Dashboard Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
+### Dashboard Link : https://public.tableau.com/views/Covid-19Dashboard_17117468984870/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
 
 # Introduction
@@ -52,8 +52,6 @@ As you might have expected, the data has more than 10K rows, and many columns, w
 1.First to prepare our data, we will go all the way to the Population collumn and select it, next we press Ctrl 'X' (Command 'X' on Mac depending on settings), Now we will go back to collumn 'E' select it then right click and click on 'Insert Cut Cells'.  We will only work on selective data so delete everything after column Z and save the file as a Excel Workbooks (. xlsx) named CovidDeaths.
 
 2.We restore the deleted collumns and now select everything from collumn Z to collumn E and delete it. Now we save the file as a Excel Workbooks (. xlsx) named CovidVaccinations.
-
-3.The project will be done in two steps with Step 1 as exploratory data analysis using SQL, and Step 2 as Data Visualization using Tableau.
 
 
 After files are cleaned and saved. Head to Microsoft SQL Server and create a database called Covid19.
@@ -258,7 +256,4 @@ Here we will also be using partition and window functions, the reason for this i
         Where continent is not null 
         Group by Location 
 
-
-
-# TABLEAU VISUALIZATION 
 
